@@ -80,11 +80,18 @@
             </div>
 
             <div class="footer-right">
-                <form class="contact-form">
-                    <input type="text" placeholder="სახელი, გვარი" required>
-                    <input type="email" placeholder="ელ. ფოსტა" required>
-                    <input type="text" placeholder="ტელეფონის ნომერი" required>
-                    <textarea placeholder="შეტყობინება"></textarea>
+                <form class="contact-form" action="#" method="post">
+                    <label for="name" >სახელი, გვარი</label>
+                    <input type="text" id="name" name="name"  required>
+
+                    <label for="email" >ელ. ფოსტა</label>
+                    <input type="email" id="email" name="email"  required>
+
+                    <label for="phone" >ტელეფონის ნომერი</label>
+                    <input type="tel" id="phone" name="phone"  required>
+
+                    <label for="message">შეტყობინება</label>
+                    <textarea id="message" name="message" ></textarea>
                     <button type="submit">გაგზავნა</button>
                 </form>
             </div>

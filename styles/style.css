@@ -195,8 +195,15 @@ header {
 .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin-top: 100px;;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 4px; 
+    font-weight: bold;
+    color: #ffffff;
 }
 
 .contact-form input,
@@ -204,26 +211,21 @@ header {
     padding: 10px;
     border: none;
     background-color: #0A22F4;
-    border-bottom: #00000046 solid 1px;
+    border-bottom: 1px solid #00000046;
     max-width: 463px;
     width: 100%;
-
     color: #ffffff;
     font-size: 14px;
+    box-sizing: border-box;
+    /* margin-bottom: 10px;  */
 }
 
 .contact-form textarea {
     resize: none;
     height: 140px;
-    border: none;
-    border-bottom: #00000046 solid 1px;
+    margin-bottom: 0; 
 }
-::placeholder {
-    color: #ffffff;
-    font-family: 'helveticaNeue lt', Arial, sans-serif;
-    font-size: 15px;
-    opacity: 1;
-}
+
 .contact-form button {
     align-self: flex-end;
     padding: 10px 20px;
@@ -249,10 +251,12 @@ header {
     padding-top: 20px;
     font-size: 14px;
 }
+
 .footer-credit {
     display: flex;
     align-items: center;
     gap: 5px;
 }
+
 
 
