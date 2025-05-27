@@ -259,5 +259,158 @@ header {
     gap: 5px;
 }
 
+/* media */
 
+/* Tablet styles: screens 1024px and below */
+@media (max-width: 1024px) {
+
+  header {
+    height: 80px;
+    padding-top: 15px;
+  }
+
+  .header-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 55px;
+  }
+
+  .navbar {
+    margin-left: 0;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .nav-list > li {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .header-btn {
+    width: 140px;
+    height: 50px;
+    margin: 10px 0 0;
+    font-size: 14px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .footer-left,
+  .footer-right {
+    min-width: 45%;
+  }
+
+  .contact-info {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .contact-item {
+    max-width: 120px;
+    gap: 20px;
+  }
+
+  .contact-form {
+    margin-top: 60px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    max-width: 100%;
+  }
+}
+
+/* Mobile styles: screens 768px and below */
+@media (max-width: 768px) {
+
+  header {
+    height: 70px;
+    padding-top: 10px;
+  }
+
+  .header-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .logo {
+    width: 90px;
+    height: 50px;
+  }
+
+  .navbar {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+  }
+
+  .nav-list > li {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .header-btn {
+    width: 130px;
+    height: 45px;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-left,
+  .footer-right {
+    min-width: 100%;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-item {
+    max-width: 100%;
+    gap: 15px;
+  }
+
+  .contact-form {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    width: 100%;
+    font-size: 16px;
+  }
+}
 
