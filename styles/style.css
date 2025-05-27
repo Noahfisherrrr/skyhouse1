@@ -200,14 +200,16 @@ header {
 }
 
 .contact-form label {
+    font-family: 'helveticaNeue lt', Arial, sans-serif;
+    font-weight: 700;
     display: block;
-    margin-bottom: 4px; 
-    font-weight: bold;
+    margin-bottom: 4px;
     color: #ffffff;
 }
 
 .contact-form input,
 .contact-form textarea {
+    font-family: 'helveticaNeue lt', Arial, sans-serif;
     padding: 10px;
     border: none;
     background-color: #0A22F4;
@@ -217,7 +219,6 @@ header {
     color: #ffffff;
     font-size: 14px;
     box-sizing: border-box;
-    /* margin-bottom: 10px;  */
 }
 
 .contact-form textarea {
